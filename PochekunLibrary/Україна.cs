@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -24,7 +21,8 @@ namespace ПочекунLibrary
 
         public async Task<БезвізовийРежим> ПочекатиБезвізовийРежим()
         {
-            return await new Func<БезвізовийРежим>(() => {
+            return await new Func<БезвізовийРежим>(() =>
+            {
                 //спробувати
                 var безвізовийРежим = ОтриматиБезвізовийРежим();
                 //якщо спіткала невдача

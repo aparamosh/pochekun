@@ -1,7 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ПочекунLibrary;
-using System.Threading.Tasks;
 using System.Threading;
 
 namespace PochekunLibraryTests
