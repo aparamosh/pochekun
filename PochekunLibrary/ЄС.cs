@@ -2,7 +2,7 @@
 
 namespace ПочекунLibrary
 {
-    public class ЄС
+    public sealed class ЄС
     {
         private static readonly Lazy<ЄС> lazy =
              new Lazy<ЄС>(() => new ЄС());

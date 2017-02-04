@@ -1,6 +1,6 @@
 ﻿namespace ПочекунLibrary
 {
-    public class БезвізовийРежим
+    public sealed class БезвізовийРежим
     {
         public void ПоїхалиВBiedronka() { }
     }

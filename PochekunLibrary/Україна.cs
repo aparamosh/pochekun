@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace ПочекунLibrary
 {
-    public class Україна
+    public sealed class Україна
     {
         private static readonly Lazy<Україна> lazy =
             new Lazy<Україна>(() => new Україна());
